@@ -1,6 +1,6 @@
 x=float(input())
 y=float(input())
-l=(x**2+y**2)**0.5
+l=0.5**(x**2+y**2)
 for i in range(1,10+1):
 	if l<=i:
 		print(i)
